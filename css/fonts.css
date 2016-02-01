@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "robotoblack";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/robotoblack/robotoblack.eot?#iefix") format("embedded-opentype"), url("../fonts/robotoblack/robotoblack.woff") format("woff"), url("../fonts/robotoblack/robotoblack.ttf") format("truetype"); }
+@font-face {
+  font-family: "robotoblackitalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/robotoblackitalic/robotoblackitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/robotoblackitalic/robotoblackitalic.woff") format("woff"), url("../fonts/robotoblackitalic/robotoblackitalic.ttf") format("truetype"); }
+@font-face {
+  font-family: "robotolight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/robotolight/robotolight.eot?#iefix") format("embedded-opentype"), url("../fonts/robotolight/robotolight.woff") format("woff"), url("../fonts/robotolight/robotolight.ttf") format("truetype"); }
+@font-face {
+  font-family: "robotomedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/robotomedium/robotomedium.eot?#iefix") format("embedded-opentype"), url("../fonts/robotomedium/robotomedium.woff") format("woff"), url("../fonts/robotomedium/robotomedium.ttf") format("truetype"); }
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */

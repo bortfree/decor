@@ -1,0 +1,154 @@
+@import "bourbon/bourbon"
+
+$green: #3ca442
+
+
+html.js .loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+	padding: 0
+
+
+a
+	&:focus
+		outline: none
+
+body
+	font-family: "robotoblack", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialiased
+	overflow-x: hidden
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+
+.main_head
+	z-index: 50
+	position: fixed
+	top: 0
+	width: 100%
+
+.top_line
+	height: 100px
+	padding: 15px 0
+	
+	
+	background-color: #fff
+	.logo
+		display: block
+		margin-top: 6px
+
+.menu
+	margin-top: 16px
+	text-align: center
+	margin-right: 61px
+	ul
+		list-style-type: none
+		li
+			display: inline-block
+			a
+				color: #363636
+				font-family: "robotolight", $helvetica
+				font-size: 14px
+				text-decoration: none
+				border-bottom: 1px dashed #363636
+				display: block
+				line-height: 16px
+				margin-left: 30px
+				transition: all .25s ease
+				&:hover
+					border: none
+			
+
+.head_contact_wrap
+	float: right
+	color: #363636
+	margin-top: -10px
+	font-family: "robotomedium", $helvetica
+	font-size: 18px
+	line-height: 30px
+	text-transform: uppercase
+	.ic_phone
+		background-image: url(../img/ic_phone.png)
+		background-repeat: no-repeat
+		display: inline-block
+		position: relative
+		top: 6px
+		width: 15px
+		height: 24px
+		margin-right: 10px
+		background-position: left 0
+	.but_wrap
+		display: block
+		margin-top: 4px
+		.button
+			background-color: #ffe001
+			background-image: linear-gradient(to top, #3ca442 0%, #6fa43c 100%)
+			border-radius: 5px
+			box-shadow: 0 2px 0 #2c7731
+			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25)
+			color: white
+			font-size: 14px
+			text-transform: uppercase
+			font-family: "robotoblack", $helvetica
+			padding: 9px 25px
+			text-decoration: none
+			transition: all .25s ease
+			&:hover
+				background-image: linear-gradient(to top, #3ca442 0%, #7ec53b  100%)
+
+.home_sect
+	background-image: url(../img/bg_home_sect.jpg)
+	min-height: 645px
+	background-size: cover
+	background-position: center
+	margin-top: 100px
+	.title_wrap_home
+		text-align: center
+		h1
+			color: #ffe001
+			font-size: 35px
+			text-transform: uppercase
+			margin-bottom: 10px
+		p
+			color: white
+			font-family: "RobotoRegular", $helvetica
+			font-size: 24px
+			line-height: 30px
+			margin-top: 0
+
+.woman_wrap
+	margin-top: 22px
