@@ -2,12 +2,150 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1230px) {
-	
+	.menu{
+		margin-right: 0;
+	}
+	.head_contact_wrap{
+		width: 186px;
+	}
+	.form_wrap{
+		margin-left: 47px;
+	}
+	.item{
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.accordion{
+		width: 1000px;
+	}
+	.accord_wrap{
+		width: 1000px;
+		margin-left: -40px;
+	}
+	.accordion div{
+		width: 561px;
+	}
+	.section_form form .lab_tel{
+		margin-left: 20px;
+	}
+	.section_form form button{
+		margin-left: 17px;
+	}
+	.item_sect4 .descr_wrap{
+		max-width: 580px;
+	}
+	.item_sect4 .right_item{
+		margin-left: 0;
+		left: 15px;
+		width: 452px;
+	}
+	.right_item_wr::before{
+		right: 268px;
+	}
+	.right_item_wr::after{
+		right: 260px;
+	}
+	.wrap_descr_danger{
+		width: 720px;
+		margin-left: 65px;
+	}
+	.wrap_descr_danger p{
+		margin-left: -60px;
+		margin-top: 21px;
+	}
+	.item_sect6{
+		margin-left: -20px;
+	}
+	.item_sect6 .descr_wrap{
+		max-width: 412px;
+	}
+	.sect9_descr_wrap .descr .descr_span .deg_wr span{
+		margin-right: 70px;
+	}
+	.sect9_descr_wrap .descr .descr_span::before{
+		bottom: -29px;
+    left: -24px;
+	}
+	.month_wr{
+		margin-left: 255px;
+		top: -42px;
+	}
+	.items_wrap_sect11 .item{
+		margin: 10px 21px;
+	}
+	.section12 .title_wrap {
+    padding: 0 30px;
+	}
+	footer .wrap_visa {
+    text-align: center;
+    margin-left: 30px;
+	}
+	footer .wrap_social{
+		text-align: left;
+	}
+
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1022px) {
-	
+	.menu{
+		display: none;
+		margin-top: 81px;
+		width: 201px;
+		background-color: white;
+		box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+		padding: 1px 0;
+	}
+	.menu ul li{
+		display: block;
+		text-align: left;
+		padding: 9px 0;
+	}
+	.menu ul li a{
+		display: inline-block;
+	}
+	.top_line{
+		height: 81px;
+		padding: 0;
+	}
+	.head_contact_wrap{
+		margin-top: 0;
+	}
+	.home_sect{
+		margin-top: 81px;
+		min-height: 420px;
+	}
+	.home_sect .title_wrap_home h1{
+		font-size: 30px;
+		line-height: 36px;
+		margin-top: 56px;
+	}
+	.home_sect .title_wrap_home p{
+		font-family: "robotomedium", sans-serif;
+		font-size: 18px;
+		line-height: 24px;
+		text-align: left;
+		margin-top: 31px;
+		margin-left: 10px;
+	}
+	.home_sect .title_wrap_home p span{
+		display: block;
+		margin-top: 10px;
+	}
+	.woman_wrap{
+		margin-top: -30px;
+	}
+	.home_sect .button_wrap{
+		margin-left: 10px;
+	}
+	.home_sect .button_wrap .button{
+		font-size: 24px;
+	}
+
+
+
+
 }
 
 /* Small Devices, Tablets */
@@ -70,6 +208,11 @@
 	.container{
 		width: 1000px;
 	}
+	.menu{
+
+		display: block !important
+	}
+
 }
 
  /* Large Devices, Wide Screens */

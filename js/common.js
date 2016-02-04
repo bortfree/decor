@@ -1,5 +1,10 @@
 $(function() {
 
+  $(".toggle-mnu").click(function(){
+    $(this).toggleClass("on");
+    $(".menu").slideToggle();
+  });
+
   $(".slider").owlCarousel({
     items : 4,
     navigation: true,
@@ -27,6 +32,7 @@ $(function() {
     autoplaySpeed : 600,
     navSpeed : 600,
     dotsSpeed : 600,
+    itemsDesktop      : [1199,1],
     dragEndSpeed : 600
   });
 
@@ -44,7 +50,7 @@ $(function() {
 
       sync2.owlCarousel({
         items : 5,
-        itemsDesktop      : [1199,10],
+        itemsDesktop      : [1199,5],
         itemsDesktopSmall     : [979,10],
         itemsTablet       : [768,8],
         itemsMobile       : [479,4],
