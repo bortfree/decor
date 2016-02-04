@@ -39,7 +39,7 @@
 				<div class="row">
 					<div class="col-md-8 col-md-push-2 col-xs-2">
 						<div class="toogle_wrap hidden-md hidden-lg">
-							<a href="#" class="toggle-mnu hidden-lg"><span></span></a></div>
+							<a href="#menu" class="toggle-mnu hidden-lg"><span></span></a></div>
 							<nav class="menu">
 								<ul>
 									<li><a href="#">Преимущества</a></li>
@@ -54,6 +54,9 @@
 							<img src="img/logo.png" alt="DECOR - Мебельная фабрика" class="logo">
 						</div>
 						<div class="col-md-2 col-xs-6">
+							<div class="button_mini hidden-lg hidden-md hidden-sm">
+								<a href="#" class="button"><img src="img/mobile.png" alt="Mobile"></a>
+							</div>
 							<div class="head_contact_wrap">
 								<span><i class="ic_phone"></i>+7 (804) 333-03-64</span>
 								<div class="but_wrap">
@@ -69,21 +72,24 @@
 		<section class="home_sect">
 			<div class="container">
 				<div class="row">
-				<div class="col-md-12 col-sm-6">
+					<div class="col-md-12 col-sm-6 col-xs-10">
 						<div class="title_wrap_home">
 							<h1>Не можете подобрать шкаф-купе по вкусу?</h1>
 							<p>Сделаем красивый, качественный и вместительный шкаф-купе любых размеров по индивидуальному дизайн проекту. <span>От производителя в Хабаровске.</span></p>
 						</div>
 						<div class="button_wrap hidden-lg hidden-md">
-								<a href="#" class="button">Узнать стоимость</a>
-							</div>
+							<a href="#" class="button">Узнать стоимость</a>
+						</div>
 					</div>
-					<div class="col-md-6 col-sm-6">
+					<div class="woman_wrap hidden-lg hidden-md hidden-sm">
+						<img src="img/woman_home_sect.png" alt="woman">
+					</div>
+					<div class="col-md-6 col-sm-6 hidden-xs">
 						<div class="woman_wrap">
 							<img src="img/woman_home_sect.png" alt="woman">
 						</div>
 					</div>
-					<div class="col-md-6 hidden-sm">
+					<div class="col-md-6 hidden-sm hidden-xs">
 						<div class="form_wrap">
 							<form action="#" id="form2">
 								<h3>узнайте стоимость и получите консультацию по дизайн-проекту</h3>
@@ -108,7 +114,7 @@
 				<div class="row">
 					<div class="items_wrap_sect1 clearfix">
 						<div class="col-md-4">
-							<div class="item">
+							<div class="item clearfix">
 								<div class="item__img">
 									<img src="img/ic1_sect1.png" alt="Безопасность">
 								</div>
@@ -121,7 +127,7 @@
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="item">
+							<div class="item clearfix">
 								<div class="item__img">
 									<img src="img/ic2_sect1.png" alt="3 года гарантийного обслуживания">
 								</div>
@@ -134,7 +140,7 @@
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div class="item">
+							<div class="item clearfix">
 								<div class="item__img">
 									<img src="img/ic3_sect1.png" alt="Многоуровневый контроль качества">
 								</div>
@@ -159,7 +165,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="accord_wrap">
-						<ul class="accordion">
+						<ul class="accordion" id="vertical">
 							<li class="slide-01">
 								<div>
 									<h2>Фасады</h2>
@@ -202,10 +208,14 @@
 				<p>Оставьте заявку. Мы ответим вам в течение 10 минут.</p>
 			</div>
 			<form action="#" class="form_inline_wrap">
-				<label for="name">ваше имя<span>*</span></label>
-				<input type="text" name="name" id="name" required>
-				<label class="lab_tel" for="tel">ваше телефон<span>*</span></label>
-				<input type="tel" name="tel" id="tel" required>
+				<div class="wr_input">
+					<label for="name">ваше имя<span>*</span></label>
+					<input type="text" name="name" id="name" required>
+				</div>
+				<div class="wr_input">
+					<label class="lab_tel" for="tel">ваше телефон<span>*</span></label>
+					<input type="tel" name="tel" id="tel" required>
+				</div>
 				<button type="submit" class="form_button">отправить</button>
 			</form>
 		</section>
@@ -214,53 +224,95 @@
 			<div class="title_wrap">
 				<h2>Мы понимаем как важны комфорт и безопасность</h2>
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="item_sect4">
-							<div class="img_wrap">
-								<img src="img/img1_sect4.png" alt="качественные и безопасные материалы">
-							</div>
-							<div class="descr_wrap">
-								<p>В своей работе мы используем качественные и безопасные материалы от надёжных поставщиков, чья репутация проверена временем. Каждое готовое изделие обязательно подвергается испытанию, чтобы можно было убедиться в его безупречности.</p>
-							</div>
+
+			<div class="hid_big hidden-lg hidden-md hidden-sm">
+				<div class="wrap_slide_small">
+
+					<div class="slide_small slide">
+						<div class="img_wrap">
+							<img src="img/img1_sect4.png" alt="качественные и безопасные материалы">
+						</div>
+						<div class="descr_wrap">
+							<p>В своей работе мы используем качественные и безопасные материалы от надёжных поставщиков, чья репутация проверена временем. Каждое готовое изделие обязательно подвергается испытанию, чтобы можно было убедиться в его безупречности.</p>
 						</div>
 					</div>
-					<div class="col-md-12">
-						<div class="item_sect4 right_item_wr">
-							<div class="descr_wrap right_item">
-								<p>Оригинальные и практичные стеклянные элементы шкафа больше не доставят беспокойства, потому что при их изготовлении мы используем калёное стекло или покрытое специальной плёнкой армированное стекло. Также декорируем изделия зеркалами, фотопечатью, пескоструйной обработкой.</p>
-							</div>
-							<div class="img_wrap">
-								<img src="img/img2_sect4.png" alt="качественные и безопасные материалы">
-							</div>
+					<div class="slide_small slide">
+						<div class="img_wrap">
+							<img src="img/img2_sect4.png" alt="качественные и безопасные материалы">
+						</div>
+						<div class="descr_wrap">
+							<p>Оригинальные и практичные стеклянные элементы шкафа больше не доставят беспокойства, потому что при их изготовлении мы используем калёное стекло или покрытое специальной плёнкой армированное стекло. Также декорируем изделия зеркалами, фотопечатью, пескоструйной обработкой.</p>
 						</div>
 					</div>
-					<div class="col-md-12">
-						<div class="item_sect4 last_item">
-							<div class="img_wrap">
-								<img src="img/img3_sect4.png" alt="качественные и безопасные материалы">
-							</div>
-							<div class="descr_wrap">
-								<p class="last">При подготовке индивидуального внутреннего пространства шкафа-купе, мы продумываем его до мелочей и учитываем все требования безопасности к подобным изделиям. Гарантируем бесшумное и плавное движение дверей. При необходимости предусмотрим секции для детских игрушек, спортивного инвентаря и других крупногабаритных предметов.</p>
-							</div>
+					<div class="slide_small slide">
+						<div class="img_wrap">
+							<img src="img/img3_sect4.png" alt="качественные и безопасные материалы">
 						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="danger_wrap clearfix">
-						<div class="col-md-2">
-							<div class="ic_wrap_danger">
-								<img src="img/ic_danger.png"  alt="Danger">
-							</div>
-						</div>
-						<div class="col-md-10">
-							<div class="wrap_descr_danger">
-								<p>Эти преимущества относятся ко всей мебели, которую мы изготавливаем. Наша задача - производство изделий, которые сделают комфортной жизнь наших клиентов и их детей. Отдельно хотелось бы отметить нашу линию детской мебели с безопасным дизайном которая ни в коем случае не повредит здоровью ребёнка.</p>
-							</div>
+						<div class="descr_wrap">
+							<p>При подготовке индивидуального внутреннего пространства шкафа-купе, мы продумываем его до мелочей и учитываем все требования безопасности к подобным изделиям. Гарантируем бесшумное и плавное движение дверей. При необходимости предусмотрим секции для детских игрушек, спортивного инвентаря и других крупногабаритных предметов.</p>
 						</div>
 					</div>
 
+				</div>
+				
+				<div class="dang_sm">
+					<img src="img/danger_small.png" alt="Danger">
+				</div>
+				<div class="descr_danger">
+					<p>Эти преимущества относятся ко всей мебели, которую мы изготавливаем. Наша задача - производство изделий, которые сделают комфортной жизнь наших клиентов и их детей. Отдельно хотелось бы отметить нашу линию детской мебели с безопасным дизайном которая ни в коем случае не повредит здоровью ребёнка.</p>
+				</div>
+
+			</div>
+
+			<div class="hid_wrap  hidden-xs">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="item_sect4">
+								<div class="img_wrap">
+									<img src="img/img1_sect4.png" alt="качественные и безопасные материалы">
+								</div>
+								<div class="descr_wrap">
+									<p>В своей работе мы используем качественные и безопасные материалы от надёжных поставщиков, чья репутация проверена временем. Каждое готовое изделие обязательно подвергается испытанию, чтобы можно было убедиться в его безупречности.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="item_sect4 right_item_wr">
+								<div class="descr_wrap right_item">
+									<p>Оригинальные и практичные стеклянные элементы шкафа больше не доставят беспокойства, потому что при их изготовлении мы используем калёное стекло или покрытое специальной плёнкой армированное стекло. Также декорируем изделия зеркалами, фотопечатью, пескоструйной обработкой.</p>
+								</div>
+								<div class="img_wrap img_right">
+									<img src="img/img2_sect4.png" alt="качественные и безопасные материалы">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="item_sect4 last_item">
+								<div class="img_wrap">
+									<img src="img/img3_sect4.png" alt="качественные и безопасные материалы">
+								</div>
+								<div class="descr_wrap">
+									<p class="last">При подготовке индивидуального внутреннего пространства шкафа-купе, мы продумываем его до мелочей и учитываем все требования безопасности к подобным изделиям. Гарантируем бесшумное и плавное движение дверей. При необходимости предусмотрим секции для детских игрушек, спортивного инвентаря и других крупногабаритных предметов.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="danger_wrap clearfix">
+							<div class="col-md-2 col-sm-2">
+								<div class="ic_wrap_danger">
+									<img src="img/ic_danger.png"  alt="Danger">
+								</div>
+							</div>
+							<div class="col-md-10 col-sm-10">
+								<div class="wrap_descr_danger">
+									<p>Эти преимущества относятся ко всей мебели, которую мы изготавливаем. Наша задача - производство изделий, которые сделают комфортной жизнь наших клиентов и их детей. Отдельно хотелось бы отметить нашу линию детской мебели с безопасным дизайном которая ни в коем случае не повредит здоровью ребёнка.</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
 				</div>
 			</div>
 		</section>
@@ -277,7 +329,7 @@
 						<div class="wrap_carousel">
 							<div id="sync1" class="owl-carousel">
 								<div class="item item1">
-									<div class="wrap_cont_carous">
+									<div class="wrap_cont_carous hidden-xs">
 										<div class="butt_price">
 											<a href="#">Узнать стоимость стандартной планировки</a>
 										</div>
@@ -287,7 +339,7 @@
 									</div>
 								</div>
 								<div class="item item2">
-									<div class="wrap_cont_carous">
+									<div class="wrap_cont_carous hidden-xs">
 										<div class="butt_price">
 											<a href="#">Узнать стоимость стандартной планировки</a>
 										</div>
@@ -297,7 +349,7 @@
 									</div>
 								</div>
 								<div class="item item3">
-									<div class="wrap_cont_carous">
+									<div class="wrap_cont_carous hidden-xs">
 										<div class="butt_price">
 											<a href="#">Узнать стоимость стандартной планировки</a>
 										</div>
@@ -307,7 +359,7 @@
 									</div>
 								</div>
 								<div class="item item4">
-									<div class="wrap_cont_carous">
+									<div class="wrap_cont_carous hidden-xs">
 										<div class="butt_price">
 											<a href="#">Узнать стоимость стандартной планировки</a>
 										</div>
@@ -317,7 +369,7 @@
 									</div>
 								</div>
 								<div class="item item5">
-									<div class="wrap_cont_carous">
+									<div class="wrap_cont_carous hidden-xs">
 										<div class="butt_price">
 											<a href="#">Узнать стоимость стандартной планировки</a>
 										</div>
@@ -336,6 +388,16 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="wrap_but_small hidden-lg hidden-md hidden-sm">
+						<div class="butt_price">
+							<a href="#">Узнать стоимость стандартной планировки</a>
+						</div>
+						<div class="butt_price blue_but">
+							<a href="#">Рассчитать стоимость индивидуальной планировки</a>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</section>
@@ -346,12 +408,12 @@
 			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-5 hidden-xs">
 						<div class="img_wrap_sect6">
 							<img src="img/businessman.png" alt="businessman">
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-7">
 						<div class="items_wr_sect6">
 							<div class="item_sect6">
 								<div class="img_wrap">
@@ -359,7 +421,7 @@
 								</div>
 								<div class="descr_wrap">
 									<h4>Индивидуальный дизайн-проект</h4>
-									<p>Ваши мечты о вместительном красивом шкафе-купе станут реальностью. Позвольте нашим дизайнерам разработать проект, который будет полностью соответствовать вашим пожеланиям</p>
+									<p class="hidden-xs">Ваши мечты о вместительном красивом шкафе-купе станут реальностью. Позвольте нашим дизайнерам разработать проект, который будет полностью соответствовать вашим пожеланиям</p>
 								</div>
 							</div>
 							<div class="item_sect6">
@@ -368,7 +430,7 @@
 								</div>
 								<div class="descr_wrap">
 									<h4>Изготовление мебели любой сложности</h4>
-									<p>Особенности внешнего вида и функциональные возможности нового шкафа-купе ограничены только вашей фантазией. Реализуем даже самые невероятные идеи.</p>
+									<p class="hidden-xs">Особенности внешнего вида и функциональные возможности нового шкафа-купе ограничены только вашей фантазией. Реализуем даже самые невероятные идеи.</p>
 								</div>
 							</div>
 							<div class="item_sect6">
@@ -377,7 +439,7 @@
 								</div>
 								<div class="descr_wrap">
 									<h4>Экспресс-замер</h4>
-									<p>В течение 2 часов наш специалист к вам подъедет и выполнит замер. Он подберет для вас несколько вариантов с разным бюджетом. При нем будет так же каталог всех материалов и цветов, чтобы вы в живую смогли увидеть разницу.</p>
+									<p class="hidden-xs">В течение 2 часов наш специалист к вам подъедет и выполнит замер. Он подберет для вас несколько вариантов с разным бюджетом. При нем будет так же каталог всех материалов и цветов, чтобы вы в живую смогли увидеть разницу.</p>
 								</div>
 							</div>
 							<div class="button_wrap clearfix">
@@ -397,7 +459,7 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
 						<div class="carous_wrap_sert slider">
 							<div class="item_sert slide">
 								<img src="img/sert1.png"  alt="Sertificat">
@@ -433,7 +495,7 @@
 
 							<div class="wrap_otz slide">
 								<div class="row">
-									<div class="col-md-5">
+									<div class="col-md-5 col-sm-3 hidden-xs">
 										<div class="img_wrap_max">
 											<img src="img/img_otz1_max.jpg"  alt="Image">
 										</div>
@@ -443,7 +505,7 @@
 											<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 										</div>
 									</div>
-									<div class="col-md-7">
+									<div class="col-md-7 col-sm-9">
 										<div class="descr_wrap">
 											<div class="img_wrap">
 												<img src="img/foto_client1.png" alt="Foto">
@@ -454,7 +516,12 @@
 												<p>Мебель очень хорошего качества, легко моется, выглядит шикарно...</p>
 											</div>
 											<div class="descr_wrap">
-												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p> <p>Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p>   <p class="hidden-xs">Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+											</div>
+											<div class="img_wrap_min mobile hidden-lg hidden-md hidden-sm">
+												<img src="img/img_otz1_mini1.jpg" alt="Image mini">
+												<img src="img/img_otz1_mini2.jpg" alt="Image mini">
+												<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 											</div>
 											<div class="button_wrap">
 												<a href="#" class="button">хочу такую же мебель</a>
@@ -466,7 +533,7 @@
 
 							<div class="wrap_otz slide">
 								<div class="row">
-									<div class="col-md-5">
+									<div class="col-md-5 col-sm-3 hidden-xs">
 										<div class="img_wrap_max">
 											<img src="img/img_otz1_max.jpg"  alt="Image">
 										</div>
@@ -476,7 +543,7 @@
 											<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 										</div>
 									</div>
-									<div class="col-md-7">
+									<div class="col-md-7 col-sm-9">
 										<div class="descr_wrap">
 											<div class="img_wrap">
 												<img src="img/foto_client1.png" alt="Foto">
@@ -487,7 +554,12 @@
 												<p>Мебель очень хорошего качества, легко моется, выглядит шикарно...</p>
 											</div>
 											<div class="descr_wrap">
-												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p> <p>Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p>   <p class="hidden-xs">Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+											</div>
+											<div class="img_wrap_min mobile hidden-lg hidden-md hidden-sm">
+												<img src="img/img_otz1_mini1.jpg" alt="Image mini">
+												<img src="img/img_otz1_mini2.jpg" alt="Image mini">
+												<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 											</div>
 											<div class="button_wrap">
 												<a href="#" class="button">хочу такую же мебель</a>
@@ -499,7 +571,7 @@
 
 							<div class="wrap_otz slide">
 								<div class="row">
-									<div class="col-md-5">
+									<div class="col-md-5 col-sm-3 hidden-xs">
 										<div class="img_wrap_max">
 											<img src="img/img_otz1_max.jpg"  alt="Image">
 										</div>
@@ -509,7 +581,7 @@
 											<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 										</div>
 									</div>
-									<div class="col-md-7">
+									<div class="col-md-7 col-sm-9">
 										<div class="descr_wrap">
 											<div class="img_wrap">
 												<img src="img/foto_client1.png" alt="Foto">
@@ -520,7 +592,12 @@
 												<p>Мебель очень хорошего качества, легко моется, выглядит шикарно...</p>
 											</div>
 											<div class="descr_wrap">
-												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p> <p>Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p>   <p class="hidden-xs">Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+											</div>
+											<div class="img_wrap_min mobile hidden-lg hidden-md hidden-sm">
+												<img src="img/img_otz1_mini1.jpg" alt="Image mini">
+												<img src="img/img_otz1_mini2.jpg" alt="Image mini">
+												<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 											</div>
 											<div class="button_wrap">
 												<a href="#" class="button">хочу такую же мебель</a>
@@ -532,7 +609,7 @@
 
 							<div class="wrap_otz slide">
 								<div class="row">
-									<div class="col-md-5">
+									<div class="col-md-5 col-sm-3 hidden-xs">
 										<div class="img_wrap_max">
 											<img src="img/img_otz1_max.jpg"  alt="Image">
 										</div>
@@ -542,7 +619,7 @@
 											<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 										</div>
 									</div>
-									<div class="col-md-7">
+									<div class="col-md-7 col-sm-9">
 										<div class="descr_wrap">
 											<div class="img_wrap">
 												<img src="img/foto_client1.png" alt="Foto">
@@ -553,7 +630,12 @@
 												<p>Мебель очень хорошего качества, легко моется, выглядит шикарно...</p>
 											</div>
 											<div class="descr_wrap">
-												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p> <p>Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p>   <p class="hidden-xs">Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+											</div>
+											<div class="img_wrap_min mobile hidden-lg hidden-md hidden-sm">
+												<img src="img/img_otz1_mini1.jpg" alt="Image mini">
+												<img src="img/img_otz1_mini2.jpg" alt="Image mini">
+												<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 											</div>
 											<div class="button_wrap">
 												<a href="#" class="button">хочу такую же мебель</a>
@@ -562,6 +644,8 @@
 									</div>
 								</div>
 							</div>
+
+							
 
 
 						</div>
@@ -581,12 +665,15 @@
 					<p>“Decor” предлагает рассрочку через "Альфа-Банк". <span>0% первоначальный взнос.</span> <br> До 6 месяцев без процентов.</p>
 				</div>
 				<div class="descr">
+					<div class="descr_img hidden-lg hidden-md hidden-sm">
+						<img src="img/alfabank.jpg" alt="Альфа-Банк">
+					</div>
 					<div class="descr_span">
 						<div class="deg_wr">
 							<span>0%</span>
 							<p>рассрочка</p>
 						</div>
-						<div class="deg_wr">
+						<div class="deg_wr pos_bot">
 							<span>0%</span>
 							<p class="long">первоначальный взнос</p>
 						</div>
@@ -596,7 +683,7 @@
 						</div>
 
 					</div>
-					<div class="descr_img">
+					<div class="descr_img hidden-xs">
 						<img src="img/alfabank.jpg" alt="Альфа-Банк">
 					</div>
 				</div>
@@ -638,7 +725,7 @@
 						<div class="col-md-12">
 
 
-							<div class="item arr_right">
+							<div class="item arr_right first_mobile">
 								<div class="img_wrap">
 									<img src="img/ic1_sect11.png" alt="Оставьте заявку">
 									<div class="number_wr">
@@ -649,8 +736,8 @@
 									<p class="yellow_p">Оставьте заявку на<br> нашем сайте</p>
 								</div>
 							</div>
-							<div class="item arr_right">
-								<div class="img_wrap">
+							<div class="item arr_right right_mobile">
+								<div class="img_wrap hidden-xs">
 									<img src="img/ic2_sect11.png" alt="Оставьте заявку">
 									<div class="number_wr">
 										<span>2</span>
@@ -659,8 +746,14 @@
 								<div class="descr_wrap">
 									<p>Вместе с нашим дизайнером участвуйте в разработке проекта вашего нового шкафа-купе</p>
 								</div>
+								<div class="img_wrap  hidden-lg hidden-md hidden-sm">
+									<img src="img/ic2_sect11.png" alt="Оставьте заявку">
+									<div class="number_wr">
+										<span>2</span>
+									</div>
+								</div>
 							</div>
-							<div class="item arr_right">
+							<div class="item arr_right left_mobile">
 								<div class="img_wrap">
 									<img src="img/ic3_sect11.png" alt="Оставьте заявку">
 									<div class="number_wr">
@@ -671,8 +764,8 @@
 									<p>Согласовываем сроки изготовления, дату и время установки</p>
 								</div>
 							</div>
-							<div class="item arr_down">
-								<div class="img_wrap">
+							<div class="item arr_down right_mobile">
+								<div class="img_wrap hidden-xs">
 									<img src="img/ic4_sect11.png" alt="Оставьте заявку">
 									<div class="number_wr">
 										<span>4</span>
@@ -681,8 +774,44 @@
 								<div class="descr_wrap">
 									<p>Тщательно проверяем комплектность и качество шкафа</p>
 								</div>
+								<div class="img_wrap hidden-lg hidden-md hidden-sm">
+									<img src="img/ic4_sect11.png" alt="Оставьте заявку">
+									<div class="number_wr">
+										<span>4</span>
+									</div>
+								</div>
 							</div>
-							<div class="item ">
+							<div class="item arr_left hidden-lg hidden-md hidden-sm left_mobile">
+								<div class="img_wrap">
+									<img src="img/ic5_sect11.png" alt="Оставьте заявку">
+									<div class="number_wr">
+										<span>5</span>
+									</div>
+								</div>
+								<div class="descr_wrap">
+									<p>Монтажники с профильным образованием произведут сборку и монтаж шкафа</p>
+								</div>
+							</div>
+
+							<div class="item arr_left hidden-lg hidden-md hidden-sm right_mobile">
+								<div class="img_wrap hidden-xs">
+									<img src="img/ic6_sect11.png" alt="Оставьте заявку">
+									<div class="number_wr">
+										<span>6</span>
+									</div>
+								</div>
+								<div class="descr_wrap">
+									<p>Наши специалисты проверят качество установки</p>
+								</div>
+								<div class="img_wrap hidden-lg hidden-md hidden-sm">
+									<img src="img/ic6_sect11.png" alt="Оставьте заявку">
+									<div class="number_wr">
+										<span>6</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="item left_mobile">
 								<div class="img_wrap">
 									<img src="img/ic7_sect11.png" alt="Оставьте заявку">
 									<div class="number_wr">
@@ -693,7 +822,7 @@
 									<p>Вы получите 3 года гарантийного обслуживания</p>
 								</div>
 							</div>
-							<div class="item arr_left">
+							<div class="item arr_left hidden-xs">
 								<div class="img_wrap">
 									<img src="img/ic6_sect11.png" alt="Оставьте заявку">
 									<div class="number_wr">
@@ -704,7 +833,7 @@
 									<p>Наши специалисты проверят качество установки</p>
 								</div>
 							</div>
-							<div class="item arr_left">
+							<div class="item arr_left hidden-xs">
 								<div class="img_wrap">
 									<img src="img/ic5_sect11.png" alt="Оставьте заявку">
 									<div class="number_wr">
@@ -727,7 +856,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="title_wrap">
-						<h2>Напишите нам или позвоните, чтобы назначить встречу и составить дизайн-проект в нашем офисе</h2>
+						<h2>Напишите нам или позвоните<span class="hidden-xs">,</span> <span>чтобы назначить встречу и составить дизайн-проект в нашем офисе</span></h2>
 					</div>
 
 
@@ -755,17 +884,18 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-5 hidden-xs">
 						<div class="img_wrap">
 							<img src="img/img_man.png"  alt="Decor - Мебельная фабрика">
 						</div>
 					</div>
-					<div class="col-md-6"></div>
-					<div class="wrap_descr">
-						<p>Среди сотен тысяч позиций самой разнообразной мебели для дома и офиса найти «то самое» изделие порой бывает очень непросто. Рынок заполонила некачественная продукция недобросовестных производителей, ориентированных на неосознанных потребителей. Мы точно не относимся к первым, и уверены, что вы не относитесь ко вторым. Так почему бы вместе не сделать собственную жизнь лучше? </p>
-						<p>Наша мебельная компания имеет многолетний опыт создания эксклюзивных кухонь, шкафов-купе и гардеробных. И мы всегда к вашим услугам.<br> 8 лет на рынке, свыше двух тысяч довольных клиентов, современное высокотехнологичное оборудование и инструменты – это то, чем мы гордимся. Благодаря собственному производству мы можем гарантировать приятную для покупателя цену на любое наше изделие.</p>
-						<p>Мы всегда соблюдаем сроки, обеспечиваем высококлассный сервис и профессиональный монтаж. Кроме того, с нами теперь вы сможете быть на 100% уверены в качестве, так как наша служба контроля по факту выполнения работ обязательно проверяет соответствие сборки заявленным параметрам, а вы получаете гарантию на нашу мебель – 3 года. </p>
-						<p>Теперь вы навсегда сможете оставить в прошлом все, что знали о мебели. Мы откроем для вас новый мир эксклюзивности, стиля и качества. Уже сегодня!</p>
+					<div class="col-md-6 col-sm-7">
+						<div class="wrap_descr">
+							<p>Среди сотен тысяч позиций самой разнообразной мебели для дома и офиса найти «то самое» изделие порой бывает очень непросто. Рынок заполонила некачественная продукция недобросовестных производителей, ориентированных на неосознанных потребителей. Мы точно не относимся к первым, и уверены, что вы не относитесь ко вторым. Так почему бы вместе не сделать собственную жизнь лучше? </p>
+							<p class="hidden-xs hidden-xs">Наша мебельная компания имеет многолетний опыт создания эксклюзивных кухонь, шкафов-купе и гардеробных. И мы всегда к вашим услугам.<br> 8 лет на рынке, свыше двух тысяч довольных клиентов, современное высокотехнологичное оборудование и инструменты – это то, чем мы гордимся. Благодаря собственному производству мы можем гарантировать приятную для покупателя цену на любое наше изделие.</p>
+							<p class="hidden-sm hidden-xs">Мы всегда соблюдаем сроки, обеспечиваем высококлассный сервис и профессиональный монтаж. Кроме того, с нами теперь вы сможете быть на 100% уверены в качестве, так как наша служба контроля по факту выполнения работ обязательно проверяет соответствие сборки заявленным параметрам, а вы получаете гарантию на нашу мебель – 3 года. </p>
+							<p class="hidden-sm hidden-xs">Теперь вы навсегда сможете оставить в прошлом все, что знали о мебели. Мы откроем для вас новый мир эксклюзивности, стиля и качества. Уже сегодня!</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -780,7 +910,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
 						<div class="carous_wrap_sert slider">
 							<div class="item_sert slide">
 								<img src="img/baxi.jpg" alt="Baxi">
@@ -818,23 +948,28 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-2 col-md-2">
+					<div class="col-lg-2 col-md-2 col-sm-2">
 						<img src="img/logo_footer.png"  alt="Decor">
 					</div>
-					<div class="col-lg-4 col-md-5">
+					<div class="col-lg-4 col-md-5 col-sm-8">
 						<div class="wrap_visa">
 							<p>Мы принимаем платежы:</p>
 							<img src="img/visa.png" alt="PayPal Visa">
 						</div>
+						<div class="wrap_social hidden-lg hidden-md">
+							<span>Мы в сети:</span>
+							<a href="#"><img src="img/social.png" alt="Social"></a>
+
+						</div>
 					</div>
-					<div class="col-lg-4 col-md-3">
+					<div class="col-lg-4 col-md-3 hidden-sm col-sm-4">
 						<div class="wrap_social">
 							<span>Мы в сети:</span>
 							<a href="#"><img src="img/social.png" alt="Social"></a>
 
 						</div>
 					</div>
-					<div class="col-lg-2 col-md-2">
+					<div class="col-lg-2 col-md-2 col-sm-2">
 						<div class="head_contact_wrap">
 							<span><i class="ic_phone"></i>+7 (804) 333-03-64</span>
 							<div class="but_wrap">

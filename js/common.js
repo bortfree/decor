@@ -17,6 +17,26 @@ $(function() {
     autoplaySpeed : 600,
     navSpeed : 600,
     dotsSpeed : 600,
+    itemsDesktopSmall     : [979,3],
+    itemsMobile       : [479,2],
+    dragEndSpeed : 600
+  });
+
+  $(".wrap_slide_small").owlCarousel({
+    items : 1,
+    navigation: true,
+    pagination: false,
+    navText : "lj",
+    loop : true,
+    autoplay : true,
+    autoplayHoverPause : true,
+    fluidSpeed : 600,
+    autoplaySpeed : 600,
+    navSpeed : 600,
+    dotsSpeed : 600,
+    itemsDesktopSmall     : [979,1],
+    itemsTablet       : [768,1],
+    itemsMobile       : [479,1],
     dragEndSpeed : 600
   });
 
@@ -33,6 +53,9 @@ $(function() {
     navSpeed : 600,
     dotsSpeed : 600,
     itemsDesktop      : [1199,1],
+    itemsDesktopSmall     : [979,1],
+    itemsTablet       : [768,1],
+    itemsMobile       : [479,1],
     dragEndSpeed : 600
   });
 
@@ -51,9 +74,9 @@ $(function() {
       sync2.owlCarousel({
         items : 5,
         itemsDesktop      : [1199,5],
-        itemsDesktopSmall     : [979,10],
-        itemsTablet       : [768,8],
-        itemsMobile       : [479,4],
+        itemsDesktopSmall     : [979,5],
+        itemsTablet       : [768,5],
+        itemsMobile       : [479,3],
         pagination:false,
         responsiveRefreshRate : 100,
         afterInit : function(el){
