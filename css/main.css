@@ -155,6 +155,60 @@ form label.error {
       line-height: 30px;
       margin-top: 0; }
 
+.furn {
+  background-image: url(../img/bg_home_sect_furn.jpg); }
+
+section.furn_bg2 {
+  background-image: url(../img/bg_sect2_furn.jpg); }
+
+section.furn_bg5 {
+  background-image: url(../img/bg_sect5_furn.jpg); }
+
+section.furn_bg8 {
+  background-image: url(../img/bg_sect8_furn.jpg); }
+
+section.furn_bg11 {
+  background-image: url(../img/bg_sect11_furn.jpg); }
+
+section.furn_bg13 {
+  background-image: url(../img/bg_sect13_furn.jpg); }
+
+section.kit {
+  background-image: url(../img/bg_home_sect_kit.jpg); }
+
+section.kit_bg2 {
+  background-image: url(../img/bg_sect2_kit.jpg); }
+
+section.kit_bg5 {
+  background-image: url(../img/bg_sect5_kit.jpg); }
+
+section.kit_bg8 {
+  background-image: url(../img/bg_sect8_kit.jpg); }
+
+section.kit_bg11 {
+  background-image: url(../img/bg_sect11_kit.jpg); }
+
+section.kit_bg13 {
+  background-image: url(../img/bg_sect13_kit.jpg); }
+
+section.rob {
+  background-image: url(../img/bg_home_sec_rob.jpg); }
+
+section.rob_bg2 {
+  background-image: url(../img/bg_sect2_rob.jpg); }
+
+section.rob_bg5 {
+  background-image: url(../img/bg_sect5_rob.jpg); }
+
+section.rob_bg8 {
+  background-image: url(../img/bg_sect8_rob.jpg); }
+
+section.rob_bg11 {
+  background-image: url(../img/bg_sect11_rob.jpg); }
+
+section.rob_bg13 {
+  background-image: url(../img/bg_sect13_rob.jpg); }
+
 .woman_wrap {
   margin-top: 22px; }
 

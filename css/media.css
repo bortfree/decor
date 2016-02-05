@@ -410,7 +410,7 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 767px) {
 
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -724,7 +724,10 @@
 		text-align: center;
 	}
 	.section8 .wrap_otz{
-		height: 504px;
+		height: 569px;
+	}
+	.section8{
+		height: 760px;
 	}
 	.sliders2 .owl-controls{
 		margin-top: 13px;
@@ -938,8 +941,10 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
+@media only screen and (min-width : 770px) {
+	.container{
+		width: 750px;
+	}
 }
 
 /* Medium Devices, Desktops */
