@@ -496,6 +496,50 @@ form button {
   .wrap_carousel .item1 {
     background-image: url(../img/img1_sect5.jpg);
     background-size: cover; }
+  .wrap_carousel div.kitch1 {
+    background-image: url(../img/img1_sect5_kitch.jpg);
+    background-size: cover; }
+  .wrap_carousel div.kitch2 {
+    background-image: url(../img/img2_sect5_kitch.jpg);
+    background-size: cover; }
+  .wrap_carousel div.kitch3 {
+    background-image: url(../img/img3_sect5_kitch.jpg);
+    background-size: cover; }
+  .wrap_carousel div.kitch4 {
+    background-image: url(../img/img4_sect5_kitch.jpg);
+    background-size: cover; }
+  .wrap_carousel div.kitch5 {
+    background-image: url(../img/img5_sect5_kitch.jpg); }
+  .wrap_carousel div.furn1 {
+    background-image: url(../img/img1_sect5_furn.jpg);
+    background-size: cover; }
+  .wrap_carousel div.furn2 {
+    background-image: url(../img/img2_sect5_furn.jpg);
+    background-size: cover; }
+  .wrap_carousel div.furn3 {
+    background-image: url(../img/img3_sect5_furn.jpg);
+    background-size: cover; }
+  .wrap_carousel div.furn4 {
+    background-image: url(../img/img4_sect5_furn.jpg);
+    background-size: cover; }
+  .wrap_carousel div.furn5 {
+    background-image: url(../img/img5_sect5_furn.jpg);
+    background-size: cover; }
+  .wrap_carousel div.rob1 {
+    background-image: url(../img/img1_sect5_rob.jpg);
+    background-size: cover; }
+  .wrap_carousel div.rob2 {
+    background-image: url(../img/img2_sect5_rob.jpg);
+    background-size: cover; }
+  .wrap_carousel div.rob3 {
+    background-image: url(../img/img3_sect5_rob.jpg);
+    background-size: cover; }
+  .wrap_carousel div.rob4 {
+    background-image: url(../img/img4_sect5_rob.jpg);
+    background-size: cover; }
+  .wrap_carousel div.rob5 {
+    background-image: url(../img/img5_sect5_rob.jpg);
+    background-size: cover; }
   .wrap_carousel .item2 {
     background-image: url(../img/img2_sect5.jpg);
     background-size: cover; }
@@ -503,21 +547,51 @@ form button {
     background-image: url(../img/img3_sect5.jpg);
     background-size: cover; }
   .wrap_carousel .item4 {
-    background-image: url(../img/img2_sect5.jpg);
+    background-image: url(../img/img4_sect5.jpg);
     background-size: cover; }
   .wrap_carousel .item5 {
-    background-image: url(../img/img3_sect5.jpg);
+    background-image: url(../img/img5_sect5.jpg);
     background-size: cover; }
   .wrap_carousel .item_mini1 {
     background-image: url(../img/img1_sect5_mini.jpg); }
+  .wrap_carousel div.minikitch1 {
+    background-image: url(../img/img1_sect5_mini_kitch.jpg); }
+  .wrap_carousel div.minikitch2 {
+    background-image: url(../img/img2_sect5_mini_kitch.jpg); }
+  .wrap_carousel div.minikitch3 {
+    background-image: url(../img/img3_sect5_mini_kitch.jpg); }
+  .wrap_carousel div.minikitch4 {
+    background-image: url(../img/img4_sect5_mini_kitch.jpg); }
+  .wrap_carousel div.minikitch5 {
+    background-image: url(../img/img5_sect5_mini_kitch.jpg); }
+  .wrap_carousel div.furnmini1 {
+    background-image: url(../img/img1_sect5_mini_furn.jpg); }
+  .wrap_carousel div.furnmini2 {
+    background-image: url(../img/img2_sect5_mini_furn.jpg); }
+  .wrap_carousel div.furnmini3 {
+    background-image: url(../img/img3_sect5_mini_furn.jpg); }
+  .wrap_carousel div.furnmini4 {
+    background-image: url(../img/img4_sect5_mini_furn.jpg); }
+  .wrap_carousel div.furnmini5 {
+    background-image: url(../img/img5_sect5_mini_furn.jpg); }
+  .wrap_carousel div.robmini1 {
+    background-image: url(../img/img1_sect5_mini_rob.jpg); }
+  .wrap_carousel div.robmini2 {
+    background-image: url(../img/img2_sect5_mini_rob.jpg); }
+  .wrap_carousel div.robmini3 {
+    background-image: url(../img/img3_sect5_mini_rob.jpg); }
+  .wrap_carousel div.robmini4 {
+    background-image: url(../img/img4_sect5_mini_rob.jpg); }
+  .wrap_carousel div.robmini5 {
+    background-image: url(../img/img5_sect5_mini_rob.jpg); }
   .wrap_carousel .item_mini2 {
     background-image: url(../img/img2_sect5_mini.jpg); }
   .wrap_carousel .item_mini3 {
     background-image: url(../img/img3_sect5_mini.jpg); }
   .wrap_carousel .item_mini4 {
-    background-image: url(../img/img2_sect5_mini.jpg); }
+    background-image: url(../img/img4_sect5_mini.jpg); }
   .wrap_carousel .item_mini5 {
-    background-image: url(../img/img3_sect5_mini.jpg); }
+    background-image: url(../img/img5_sect5_mini.jpg); }
 
 .wrap_cont_carous {
   position: absolute;
