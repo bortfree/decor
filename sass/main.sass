@@ -49,9 +49,25 @@ body
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
 	color: red
+	border: 1px solid red
 body input:required:valid,
 body textarea:required:valid
 	color: #363636
+
+form
+	label.error
+		color: red
+		color: #f7452e
+		font-family: "RobotoRegular", $helvetica
+		font-size: 12px
+		width: 100%
+		border: none
+		text-transform: none
+		background: transparent
+		padding: 0
+		text-align: left
+
+
 
 
 .hidden
@@ -1073,3 +1089,65 @@ footer
 			border-radius: 5px
 			box-shadow: 0 3px 0 #386cc5
 
+
+#form1
+	margin: auto
+	position: relative
+	width: 440px
+	background-color: white
+	border-radius: 5px
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15)
+	text-align: center
+	padding: 2px 35px 15px 35px
+	h3
+		color: #363636
+		font-family: "robotoblack", $helvetica
+		font-size: 24px
+		font-weight: 500
+		margin-top: 17px
+		margin-bottom: 0
+		text-transform: uppercase
+	.descr
+		font-size: 14px
+		font-family: "robotolight", $helvetica
+		margin-top: 15px
+	input, .button
+		width: 309px
+		margin-right: 0
+		border-radius: 5px
+		width: 100%
+		margin-bottom: 5px
+	.button
+		margin-bottom: 20px
+		padding: 15px 0
+
+.mfp-close-btn-in
+	.mfp-close
+		color: #bebebe
+		right: 0
+		top: 0
+
+.done
+	margin: auto
+	position: relative
+	width: 440px
+	background-color: white
+	border-radius: 5px
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.15)
+	text-align: center
+	padding: 2px 35px 15px 35px
+	h2
+		color: #3ca442
+		font-family: "robotoblack", $helvetica
+		font-size: 48px
+		text-transform: uppercase
+		margin-top: 12px
+		margin-bottom: 0
+	.descr
+		font-family: "robotomedium", $helvetica
+		font-size: 18px
+		line-height: 24px
+	.light_form
+		font-family: "robotolight", $helvetica
+		font-size: 14px
+		line-height: 20px

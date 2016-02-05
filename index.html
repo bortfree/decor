@@ -18,6 +18,8 @@
 
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="libs/magnific-popup/magnific-popup.css" />
+
 	<link href="libs/owlcarousel/owl.carousel.css" rel="stylesheet">
 	<link href="libs/owlcarousel/owl.theme.css" rel="stylesheet">
 	<link href="libs/owlcarousel/custom.css" rel="stylesheet">
@@ -42,11 +44,11 @@
 							<a href="#menu" class="toggle-mnu hidden-lg"><span></span></a></div>
 							<nav class="menu">
 								<ul>
-									<li><a href="#">Преимущества</a></li>
-									<li><a href="#">Готовые проекты</a></li>
-									<li><a href="#">Как мы работаем</a></li>
-									<li><a href="#">Отзывы</a></li>
-									<li><a href="#">Контакты</a></li>
+									<li><a href="#preim">Преимущества</a></li>
+									<li><a href="#got">Готовые проекты</a></li>
+									<li><a href="#work">Как мы работаем</a></li>
+									<li><a href="#otz">Отзывы</a></li>
+									<li><a href="#contact">Контакты</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -55,12 +57,12 @@
 						</div>
 						<div class="col-md-2 col-xs-6">
 							<div class="button_mini hidden-lg hidden-md hidden-sm">
-								<a href="#" class="button"><img src="img/mobile.png" alt="Mobile"></a>
+								<a href="#form1" class="button popup"><img src="img/mobile.png" alt="Mobile"></a>
 							</div>
 							<div class="head_contact_wrap">
 								<span><i class="ic_phone"></i>+7 (804) 333-03-64</span>
 								<div class="but_wrap">
-									<a href="#" class="button">заказать звонок</a>
+									<a href="#form1" class="button popup">заказать звонок</a>
 								</div>
 							</div>
 						</div>
@@ -78,13 +80,15 @@
 							<p>Сделаем красивый, качественный и вместительный шкаф-купе любых размеров по индивидуальному дизайн проекту. <span>От производителя в Хабаровске.</span></p>
 						</div>
 						<div class="button_wrap hidden-lg hidden-md">
-							<a href="#" class="button">Узнать стоимость</a>
+							<a href="#form1" class="button popup">Узнать стоимость</a>
 						</div>
 					</div>
-					<div class="woman_wrap hidden-lg hidden-md hidden-sm">
+
+					<div class="woman_wrap hidden-lg hidden-md hidden-sm hidden-xs">
 						<img src="img/woman_home_sect.png" alt="woman">
 					</div>
-					<div class="col-md-6 col-sm-6 hidden-xs">
+
+					<div class="col-md-6 col-sm-6 col-xs-2">
 						<div class="woman_wrap">
 							<img src="img/woman_home_sect.png" alt="woman">
 						</div>
@@ -98,14 +102,22 @@
 								<input type="text" name="name" id="name" required>
 								<label for="tel">ваше телефон<span>*</span></label>
 								<input type="tel" name="tel" id="tel" required>
+								<!-- Hidden Required Fields -->
+								<input type="hidden" name="project_name" value="Decor">
+								<input type="hidden" name="admin_email" value="ebortnikov@mail.ru">
+								<input type="hidden" name="form_subject" value="Заказ обратного звонка c верхней формы шкаф-купе">
+								<!-- END Hidden Required Fields -->
 								<button type="submit" class="form_button">отправить</button>
 							</form>
+
 						</div>
 					</div>
+
 				</div>
 			</div>
-		</section>
 
+		</section>
+<div id="preim"></div>
 		<section class="sect section1">
 			<div class="title_wrap">
 				<h2>что вы получаете, обратившись к нам</h2>
@@ -209,14 +221,19 @@
 			</div>
 			<form action="#" class="form_inline_wrap">
 				<div class="wr_input">
-					<label for="name">ваше имя<span>*</span></label>
-					<input type="text" name="name" id="name" required>
+					<label for="name1">ваше имя<span>*</span></label>
+					<input type="text" name="name" id="name1" required>
 				</div>
 				<div class="wr_input">
-					<label class="lab_tel" for="tel">ваше телефон<span>*</span></label>
-					<input type="tel" name="tel" id="tel" required>
+					<label class="lab_tel" for="tel1">ваше телефон<span>*</span></label>
+					<input type="tel" name="tel" id="tel1" required>
 				</div>
 				<button type="submit" class="form_button">отправить</button>
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="Decor">
+				<input type="hidden" name="admin_email" value="ebortnikov@mail.ru">
+				<input type="hidden" name="form_subject" value="Заказ обратного звонка c инлайн формы шкаф-купе">
+				<!-- END Hidden Required Fields -->
 			</form>
 		</section>
 
@@ -316,7 +333,7 @@
 				</div>
 			</div>
 		</section>
-
+<div id="got"></div>
 		<section class="sect section5">
 			<div class="title_wrap">
 				<h2>некоторые из наших проектов</h2>
@@ -331,50 +348,50 @@
 								<div class="item item1">
 									<div class="wrap_cont_carous hidden-xs">
 										<div class="butt_price">
-											<a href="#">Узнать стоимость стандартной планировки</a>
+											<a href="#form1" class="popup">Узнать стоимость стандартной планировки</a>
 										</div>
 										<div class="butt_price blue_but">
-											<a href="#">Рассчитать стоимость индивидуальной планировки</a>
+											<a href="#form1" class="popup">Рассчитать стоимость индивидуальной планировки</a>
 										</div>
 									</div>
 								</div>
 								<div class="item item2">
 									<div class="wrap_cont_carous hidden-xs">
 										<div class="butt_price">
-											<a href="#">Узнать стоимость стандартной планировки</a>
+											<a href="#form1" class="popup">Узнать стоимость стандартной планировки</a>
 										</div>
 										<div class="butt_price blue_but">
-											<a href="#">Рассчитать стоимость индивидуальной планировки</a>
+											<a href="#form1" class="popup">Рассчитать стоимость индивидуальной планировки</a>
 										</div>
 									</div>
 								</div>
 								<div class="item item3">
 									<div class="wrap_cont_carous hidden-xs">
 										<div class="butt_price">
-											<a href="#">Узнать стоимость стандартной планировки</a>
+											<a href="#form1" class="popup">Узнать стоимость стандартной планировки</a>
 										</div>
 										<div class="butt_price blue_but">
-											<a href="#">Рассчитать стоимость индивидуальной планировки</a>
+											<a href="#form1" class="popup">Рассчитать стоимость индивидуальной планировки</a>
 										</div>
 									</div>
 								</div>
 								<div class="item item4">
 									<div class="wrap_cont_carous hidden-xs">
 										<div class="butt_price">
-											<a href="#">Узнать стоимость стандартной планировки</a>
+											<a href="#form1" class="popup">Узнать стоимость стандартной планировки</a>
 										</div>
 										<div class="butt_price blue_but">
-											<a href="#">Рассчитать стоимость индивидуальной планировки</a>
+											<a href="#form1" class="popup">Рассчитать стоимость индивидуальной планировки</a>
 										</div>
 									</div>
 								</div>
 								<div class="item item5">
 									<div class="wrap_cont_carous hidden-xs">
 										<div class="butt_price">
-											<a href="#">Узнать стоимость стандартной планировки</a>
+											<a href="#form1" class="popup">Узнать стоимость стандартной планировки</a>
 										</div>
 										<div class="butt_price blue_but">
-											<a href="#">Рассчитать стоимость индивидуальной планировки</a>
+											<a href="#form1" class="popup">Рассчитать стоимость индивидуальной планировки</a>
 										</div>
 									</div>
 								</div>
@@ -391,10 +408,10 @@
 
 					<div class="wrap_but_small hidden-lg hidden-md hidden-sm">
 						<div class="butt_price">
-							<a href="#">Узнать стоимость стандартной планировки</a>
+							<a href="#form1" class="popup">Узнать стоимость стандартной планировки</a>
 						</div>
 						<div class="butt_price blue_but">
-							<a href="#">Рассчитать стоимость индивидуальной планировки</a>
+							<a href="#form1" class="popup">Рассчитать стоимость индивидуальной планировки</a>
 						</div>
 					</div>
 
@@ -443,7 +460,7 @@
 								</div>
 							</div>
 							<div class="button_wrap clearfix">
-								<a href="#" class="button">заказать проект индивидуальной планировки</a>
+								<a href="#form1" class="button popup">заказать проект индивидуальной планировки</a>
 							</div>
 						</div>
 					</div>
@@ -483,7 +500,7 @@
 			</div>
 
 		</section>
-
+<div id="otz"></div>
 		<section class="sect section8">
 			<div class="title_wrap">
 				<h2>Что о нас говорят</h2>
@@ -509,14 +526,14 @@
 										<div class="descr_wrap">
 											<div class="img_wrap">
 												<img src="img/foto_client1.png" alt="Foto">
-												<a href="#"><img src="img/ic_vk.png" alt="Vkontakte"></a>
+												<a href="https://vk.com/id31442828"><img src="img/ic_vk.png" alt="Vkontakte"></a>
 											</div>
 											<div class="title_wrap">
-												<h3>Надежда Кондратьева</h3>
-												<p>Мебель очень хорошего качества, легко моется, выглядит шикарно...</p>
+												<h3>Марина Шунк Шкаф-Купе</h3>
+												<p>В первый раз сталкиваюсь с профессионалами своего дела!))</p>
 											</div>
 											<div class="descr_wrap">
-												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p>   <p class="hidden-xs">Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+												<p>Нужен был шкаф-купе для спальни, решила заказать в “Decor”. Понравилось, что замеры, дизайнерский проект, изготовление и непосредственно установка заняли совсем немного времени!))) </p>   <p class="hidden-xs">Мой новый шкаф не только очень функционален и практичен, но и гармонично вписался в общую обстановку спальни!) Я в полном восторге, искренне благодарна всем, особенно Олегу!))))))</p>
 											</div>
 											<div class="img_wrap_min mobile hidden-lg hidden-md hidden-sm">
 												<img src="img/img_otz1_mini1.jpg" alt="Image mini">
@@ -524,7 +541,7 @@
 												<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 											</div>
 											<div class="button_wrap">
-												<a href="#" class="button">хочу такую же мебель</a>
+												<a href="#form1" class="button popup">хочу такую же мебель</a>
 											</div>
 										</div>
 									</div>
@@ -547,14 +564,14 @@
 										<div class="descr_wrap">
 											<div class="img_wrap">
 												<img src="img/foto_client1.png" alt="Foto">
-												<a href="#"><img src="img/ic_vk.png" alt="Vkontakte"></a>
+												<a href="http://ok.ru/profile/354679018745"><img src="img/ic_vk.png" alt="Vkontakte"></a>
 											</div>
 											<div class="title_wrap">
-												<h3>Надежда Кондратьева</h3>
-												<p>Мебель очень хорошего качества, легко моется, выглядит шикарно...</p>
+												<h3>Надежда Кондратьева Кухня</h3>
+												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... </p>
 											</div>
 											<div class="descr_wrap">
-												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p>   <p class="hidden-xs">Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+												<p>Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились. Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. </p>   <p class="hidden-xs">Дизайнер потом создала проект, который просто идеально вписался на кухне! Что хочу сказать, вот уже пару недель у меня стоит эта кухня. Не нарадуюсь! Мебель очень хорошего качества, легко моется, выглядит шикарно! Спасибо огромное Вам</p>
 											</div>
 											<div class="img_wrap_min mobile hidden-lg hidden-md hidden-sm">
 												<img src="img/img_otz1_mini1.jpg" alt="Image mini">
@@ -562,7 +579,7 @@
 												<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 											</div>
 											<div class="button_wrap">
-												<a href="#" class="button">хочу такую же мебель</a>
+												<a href="#form1" class="button popup">хочу такую же мебель</a>
 											</div>
 										</div>
 									</div>
@@ -585,14 +602,14 @@
 										<div class="descr_wrap">
 											<div class="img_wrap">
 												<img src="img/foto_client1.png" alt="Foto">
-												<a href="#"><img src="img/ic_vk.png" alt="Vkontakte"></a>
+												<a href="https://vk.com/id61901322 "><img src="img/ic_vk.png" alt="Vkontakte"></a>
 											</div>
 											<div class="title_wrap">
-												<h3>Надежда Кондратьева</h3>
-												<p>Мебель очень хорошего качества, легко моется, выглядит шикарно...</p>
+												<h3>Александра Небунеля Шкаф-купе</h3>
+												<p>Хотела бы поделится своими впечатлениями. </p>
 											</div>
 											<div class="descr_wrap">
-												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p>   <p class="hidden-xs">Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+												<p>Мы заказали шкаф в компании Декор, сделали на удивление быстро. А самое главное цена соответствует качеству. Отдельное спасибо менеджеру Татьяне, за ее терпение, профессионализм (когда мы приехали создавать дизайн), она быстро поняла какой именно мы хотели шкаф.</p>   <p class="hidden-xs">  Шкаф просто "ВАУ". Так же мы планируем заказывать мебель для кухни и других комнат, и обязательно обратимся к вам. Компании спасибо ОГРОМНОЕ, я с удовольствием буду рекомендовать вашу компанию своим знакомым.</p>
 											</div>
 											<div class="img_wrap_min mobile hidden-lg hidden-md hidden-sm">
 												<img src="img/img_otz1_mini1.jpg" alt="Image mini">
@@ -600,7 +617,7 @@
 												<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 											</div>
 											<div class="button_wrap">
-												<a href="#" class="button">хочу такую же мебель</a>
+												<a href="#form1" class="button popup">хочу такую же мебель</a>
 											</div>
 										</div>
 									</div>
@@ -623,14 +640,14 @@
 										<div class="descr_wrap">
 											<div class="img_wrap">
 												<img src="img/foto_client1.png" alt="Foto">
-												<a href="#"><img src="img/ic_vk.png" alt="Vkontakte"></a>
+												<a href="http://ok.ru/profile/554256637050"><img src="img/ic_vk.png" alt="Vkontakte"></a>
 											</div>
 											<div class="title_wrap">
-												<h3>Надежда Кондратьева</h3>
-												<p>Мебель очень хорошего качества, легко моется, выглядит шикарно...</p>
+												<h3>Евгений Федянин Кухня</h3>
+												<p>Не первый день заказываю в компании “Decor” мебель</p>
 											</div>
 											<div class="descr_wrap">
-												<p>Сделали с мужем ремонт на кухне, наконец-то выкинули старую мебель... Решили обновить все полностью! Супруг нашел компанию “Decor”, посмотрели их работы, очень нам понравились.</p>   <p class="hidden-xs">Созвонились с менеджером, договорились о встрече с замерщиками. Ребята приехали вовремя, все быстренько сделали, сразу видно — работают профессионалы. Дизайнер потом создала проект, который просто идеально вписался на кухне!</p>
+												<p>Нравится качество и само обслуживание! В этот раз заказывал тут кухню для матери в квартиру. Она такой человек, что угодить очень трудно:) Мария — отличный дизайнер, который понимает с полуслова клиента! :) </p>   <p class="hidden-xs">Она сделала красивый дизайн-проект, с приятной цветовой гаммой и изящной фурнитурой. Именно то, что нужно! :) Смонтировали достаточно быстро, смотрится замечательно! Мама только и успевает хвалиться подругам, цветет и пахнет!</p>
 											</div>
 											<div class="img_wrap_min mobile hidden-lg hidden-md hidden-sm">
 												<img src="img/img_otz1_mini1.jpg" alt="Image mini">
@@ -638,7 +655,7 @@
 												<img src="img/img_otz1_mini3.jpg" alt="Image mini">
 											</div>
 											<div class="button_wrap">
-												<a href="#" class="button">хочу такую же мебель</a>
+												<a href="#form1" class="button popup">хочу такую же мебель</a>
 											</div>
 										</div>
 									</div>
@@ -705,14 +722,19 @@
 				<p>Оставьте заявку. Мы ответим вам в течение 10 минут.</p>
 			</div>
 			<form action="#" class="form_inline_wrap">
-				<label for="name">ваше имя<span>*</span></label>
-				<input type="text" name="name" id="name" required>
-				<label class="lab_tel" for="tel">ваше телефон<span>*</span></label>
-				<input type="tel" name="tel" id="tel" required>
+				<label for="name2">ваше имя<span>*</span></label>
+				<input type="text" name="name" id="name2" required>
+				<label class="lab_tel" for="tel2">ваше телефон<span>*</span></label>
+				<input type="tel" name="tel" id="tel2" required>
 				<button type="submit" class="form_button">отправить</button>
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="Decor">
+				<input type="hidden" name="admin_email" value="ebortnikov@mail.ru">
+				<input type="hidden" name="form_subject" value="Заказ обратного звонка c инлайн формы шкаф-купе">
+				<!-- END Hidden Required Fields -->
 			</form>
 		</section>
-
+<div id="work"></div>
 		<section class="sect section11">
 			<div class="title_wrap">
 				<h2>7 шагов к идеальному шкафу-купе</h2>
@@ -851,7 +873,7 @@
 			</div>
 
 		</section>
-
+<div id="contact"></div>
 		<section class="sect section12">
 			<div class="container">
 				<div class="row">
@@ -910,7 +932,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+					<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
 						<div class="carous_wrap_sert slider">
 							<div class="item_sert slide">
 								<img src="img/baxi.jpg" alt="Baxi">
@@ -948,41 +970,74 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-2 col-md-2 col-sm-2">
-						<img src="img/logo_footer.png"  alt="Decor">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-5">
+						<img class="logo" src="img/logo_footer.png"  alt="Decor">
 					</div>
-					<div class="col-lg-4 col-md-5 col-sm-8">
+					<div class="col-lg-4 col-md-5 col-sm-8 col-xs-5">
 						<div class="wrap_visa">
-							<p>Мы принимаем платежы:</p>
-							<img src="img/visa.png" alt="PayPal Visa">
+							<p class="hidden-xs">Мы принимаем платежы:</p>
+							<img src="img/visa_mobile.png" height="35" width="65" alt="PayPal Visa">
 						</div>
-						<div class="wrap_social hidden-lg hidden-md">
-							<span>Мы в сети:</span>
-							<a href="#"><img src="img/social.png" alt="Social"></a>
+						<div class="wrap_social hidden-lg hidden-md hidden-xs">
+							<span class="hidden-xs">Мы в сети:</span>
+							<a href="http://vk.com/mebel_27"><img src="img/social.png" alt="Social"></a>
 
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-3 hidden-sm col-sm-4">
+					<div class="col-lg-4 col-md-3 hidden-sm col-sm-4 col-xs-5 hidden-xs">
 						<div class="wrap_social">
-							<span>Мы в сети:</span>
-							<a href="#"><img src="img/social.png" alt="Social"></a>
+							<span class="hidden-xs">Мы в сети:</span>
+							<a   href="http://vk.com/mebel_27"><img src="img/social.png" alt="Social"></a>
 
 						</div>
 					</div>
-					<div class="col-lg-2 col-md-2 col-sm-2">
-						<div class="head_contact_wrap">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+						<div class="button_mini hidden-lg hidden-md hidden-sm">
+							<a href="#form1" class="button popup"><img src="img/mobile.png" alt="Mobile"></a>
+						</div>
+						<div class="head_contact_wrap hidden-xs">
 							<span><i class="ic_phone"></i>+7 (804) 333-03-64</span>
 							<div class="but_wrap">
-								<a href="#" class="button">заказать звонок</a>
+								<a href="#form1" class="button popup">заказать звонок</a>
 							</div>
 						</div>
 					</div>
+
 				</div>
+			</div>
+			<div class="wrap_social hidden-lg hidden-md hidden-sm">
+				<span class="hidden-xs">Мы в сети:</span>
+				<a   href="http://vk.com/mebel_27"><img src="img/social.png" alt="Social"></a>
+
 			</div>
 		</footer>
 
 
-		<div class="hidden"></div>
+		<div class="hidden">
+			
+			<form  id="form1">
+				<h3>оставтьте заявку на звонок</h3>
+				<p class="descr">Наш специалист свяжется с Вами в течении 10 минут</p>
+				<p><input type="text" class="required" name="name" required placeholder="Ваше имя*"></p>
+				<p><input type="tel" class="required" name="tel" id="phone"  required placeholder="Ваш телефон*"></p>
+				<button class="button">Отправить</button>
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="Decor">
+				<input type="hidden" name="admin_email" value="ebortnikov@mail.ru">
+				<input type="hidden" name="form_subject" value="Заказ обратного звонка c попап формы шкаф-купе">
+				<!-- END Hidden Required Fields -->
+			</form>
+
+			<div  class="done">
+				<h2>Спасибо</h2>
+				<p class="descr">Наш специалист свяжется с Вами в течении 10 минут</p>
+				<p class="light_form"><a href="presents.pdf">Скачать</a> презентацию нашей компании:  </p>
+				<p class="light_form">Посмотреть нашу группу Вконтакте: <a href="http://vk.com/mebel_27"><img src="img/ic_vk.png"  alt="Vkontakte"></a></p>
+			</div>
+
+
+
+		</div>
 
 		<div class="loader">
 			<div class="loader_inner"></div>
@@ -999,6 +1054,9 @@
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="libs/owlcarousel/owl.carousel.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+	<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
 	
 	<script src="js/common.js"></script>
