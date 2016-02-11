@@ -1,5 +1,7 @@
 $(function() {
 
+  $("#phone, #tel, #tel1, #tel2").mask("+7 (999) 999-9999");
+
   // Set options
   var options = {
     offset: '#showHere',
@@ -21,7 +23,9 @@ $(function() {
           offset: 100
         });
 
-        $(".popup").magnificPopup();
+        $(".popup").click(function() {
+          $(".form_subject").val($(this).text());
+        }).magnificPopup();
 
         $('.sert1').magnificPopup({
           items: {
