@@ -745,6 +745,8 @@ form button {
       display: inline-block;
       position: relative;
       margin-right: 27px; }
+      .section8 .descr_wrap .img_wrap img {
+        border-radius: 10em; }
       .section8 .descr_wrap .img_wrap a {
         display: block;
         position: absolute;
@@ -775,6 +777,8 @@ form button {
         font-family: "robotolight", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
         font-size: 14px;
         line-height: 24px; }
+    .section8 .descr_wrap .button_wrap {
+      margin-bottom: 31px; }
 
 .sliders2 .owl-controls {
   margin-top: 25px; }
@@ -1007,8 +1011,9 @@ form button {
       vertical-align: middle; }
 
 footer {
-  height: 100px;
-  background-color: #363636; }
+  height: 110px;
+  background-color: #363636;
+  text-align: center; }
   footer img {
     display: block;
     margin-top: 23px; }
@@ -1045,6 +1050,17 @@ footer {
       position: relative;
       top: 4px; }
     footer .wrap_social span {
+      color: #fff; }
+
+.pol_conf {
+  display: inline-block;
+  margin-bottom: 10px; }
+  .pol_conf a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px; }
+    .pol_conf a:hover {
+      text-decoration: none;
       color: #fff; }
 
 /* Important styles */
@@ -1227,5 +1243,14 @@ footer {
     font-family: "robotolight", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     font-size: 14px;
     line-height: 20px; }
+
+#politic {
+  margin: auto;
+  position: relative;
+  width: 700px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  padding: 30px; }
 
 /*# sourceMappingURL=main.css.map */

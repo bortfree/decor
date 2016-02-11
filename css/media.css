@@ -904,6 +904,9 @@
 		padding: 10px 25px;
 		font-size: 15px;
 	}
+	#politic{
+		width: 470px;
+	}
 
 }
 
@@ -915,6 +918,9 @@
 	}
 	.button_wrap .button {
     padding: 15px 12px;
+	}
+	#politic{
+		width: 300px;
 	}
 
 
